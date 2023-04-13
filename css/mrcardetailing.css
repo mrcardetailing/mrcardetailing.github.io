@@ -208,6 +208,10 @@ blockquote {
   text-align: center;
 }
 
+.title-wrapper-centre.larger {
+  max-width: 800px;
+}
+
 .slider-card {
   display: flex;
   width: 100%;
