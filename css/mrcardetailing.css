@@ -330,6 +330,10 @@ blockquote {
   background-color: #eef0f1;
 }
 
+.button-outline.left-margin {
+  margin-left: 24px;
+}
+
 .style-guide-grid {
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
@@ -507,6 +511,10 @@ blockquote {
 
 .button-primary:active {
   background-color: #512;
+}
+
+.button-primary.footer-button {
+  display: block;
 }
 
 .typography-block {
@@ -2202,8 +2210,10 @@ blockquote {
 }
 
 .grid-three-column.contact {
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 
 .footer-bottom {
@@ -3683,6 +3693,17 @@ blockquote {
 
 .gallery-image.margin-top-negative {
   margin-top: -25%;
+}
+
+.footer-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.facebook-image {
+  width: 32px;
+  margin-top: 24px;
 }
 
 @media screen and (max-width: 991px) {
