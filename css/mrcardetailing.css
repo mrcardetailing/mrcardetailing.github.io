@@ -228,6 +228,10 @@ blockquote {
   color: #000;
 }
 
+.brand-logo {
+  height: 29px;
+}
+
 .navigation-button-wrap {
   display: flex;
   justify-content: flex-end;
@@ -2569,8 +2573,8 @@ blockquote {
 }
 
 .contact-icon-large.smaller {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
 }
 
 .contact-icon-block {
@@ -3184,6 +3188,10 @@ blockquote {
 .section-testimonal {
   overflow: hidden;
   padding: 96px 5%;
+}
+
+.logo.footer-logo {
+  width: 350px;
 }
 
 .empty-state {
@@ -4208,13 +4216,21 @@ blockquote {
     line-height: 50px;
   }
 
+  .brand-logo {
+    height: 33px;
+  }
+
+  .navigation-button-wrap {
+    width: 30%;
+  }
+
   .title-wrapper-centre {
     align-items: flex-start;
     text-align: left;
   }
 
   .slider-card {
-    max-width: 288px;
+    max-width: 100%;
   }
 
   .color-grid {
@@ -4312,6 +4328,10 @@ blockquote {
 
   .heading-regular {
     font-size: 43px;
+  }
+
+  .mask {
+    max-width: 100%;
   }
 
   .arrow.right-arrow {
@@ -4437,10 +4457,6 @@ blockquote {
     margin-right: 20px;
   }
 
-  .service-card {
-    max-width: 288px;
-  }
-
   .section-blog {
     padding-top: 40px;
     padding-bottom: 60px;
@@ -4509,6 +4525,7 @@ blockquote {
 
   .pricing-card {
     padding: 32px 24px;
+    align-items: flex-start;
   }
 
   .pricing-title {
@@ -4620,89 +4637,6 @@ blockquote {
       justify-self: end;
 }
 
-#w-node-_153d1685-299e-7f51-3eca-323bf770d5cf-c325f9a9 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column-align: start;
-      justify-self: start;
-}
-
-#w-node-_153d1685-299e-7f51-3eca-323bf770d5d2-c325f9a9 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column-align: end;
-      justify-self: end;
-  -ms-grid-row-align: end;
-      align-self: end;
-}
-
-#w-node-_153d1685-299e-7f51-3eca-323bf770d5d7-c325f9a9 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_153d1685-299e-7f51-3eca-323bf770d606-c325f9a9 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_153d1685-299e-7f51-3eca-323bf770d635-c325f9a9 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_153d1685-299e-7f51-3eca-323bf770d664-c325f9a9 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_153d1685-299e-7f51-3eca-323bf770d693-c325f9a9 {
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-}
-
 #w-node-_54d14fb0-b351-da65-ad3f-89bb927d9f29-c325f9a9 {
   -ms-grid-column: span 1;
       grid-column-start: span 1;
@@ -4775,6 +4709,89 @@ blockquote {
       grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
+}
+
+#w-node-db9d7b32-0ba5-f767-04ce-9a3c72672c51-72672c4b {
+  -ms-grid-column: span 1;
+      grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+      grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+#w-node-db9d7b32-0ba5-f767-04ce-9a3c72672c54-72672c4b {
+  -ms-grid-column: span 1;
+      grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+      grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-grid-row-align: end;
+      align-self: end;
+}
+
+#w-node-db9d7b32-0ba5-f767-04ce-9a3c72672c59-72672c4b {
+  -ms-grid-column: span 1;
+      grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+      grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-db9d7b32-0ba5-f767-04ce-9a3c72672c88-72672c4b {
+  -ms-grid-column: span 1;
+      grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+      grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-db9d7b32-0ba5-f767-04ce-9a3c72672cb7-72672c4b {
+  -ms-grid-column: span 1;
+      grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+      grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-db9d7b32-0ba5-f767-04ce-9a3c72672ce6-72672c4b {
+  -ms-grid-column: span 1;
+      grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+      grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-db9d7b32-0ba5-f767-04ce-9a3c72672d15-72672c4b {
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-column: span 1;
+      grid-column-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-row: span 1;
+      grid-row-start: span 1;
 }
 
 #w-node-_59a49342-62ef-3d4c-bc57-bba08e986951-8e986949 {
@@ -5214,89 +5231,6 @@ blockquote {
       grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
-}
-
-#w-node-_90952c79-e6e0-4735-eb0b-2109476065c7-a843b089 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column-align: start;
-      justify-self: start;
-}
-
-#w-node-_90952c79-e6e0-4735-eb0b-2109476065ca-a843b089 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column-align: end;
-      justify-self: end;
-  -ms-grid-row-align: end;
-      align-self: end;
-}
-
-#w-node-_8fe223d7-71ea-0c86-50b4-96402484597c-a843b089 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_8fe223d7-71ea-0c86-50b4-96402484599c-a843b089 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_8fe223d7-71ea-0c86-50b4-9640248459bc-a843b089 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_762cf327-badb-1814-a7cc-7c8cf95660ce-a843b089 {
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_635fd304-244b-fbee-f994-7d5b7e298557-a843b089 {
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-column: span 1;
-      grid-column-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-row: span 1;
-      grid-row-start: span 1;
 }
 
 @media screen and (max-width: 991px) {
